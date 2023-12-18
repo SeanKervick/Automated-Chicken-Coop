@@ -1,4 +1,4 @@
-![Alt coopIamge](\images\coop.png)
+![Alt coopImage](/images/coop.png)
 
 <!-- TABLE OF CONTENTS -->
 <details>
