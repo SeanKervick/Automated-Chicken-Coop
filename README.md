@@ -1,7 +1,7 @@
-<p align="center">
-  <h1 style="font-size: 36px; margin-bottom: 20px;">Automated Chicken Coop</h1>
-  <img src="/images/coop.png" alt="Coop Image" width="50%"/><img src="/graphic.png" alt="Graphic" width="50%"/>
-</p>
+<p align="center" style="font-size: 36px; margin-bottom: 20px;">Automated Chicken Coop</p>
+
+<img src="/images/coop.png" alt="Coop Image" width="75%"/>
+
 
 
 
@@ -46,9 +46,21 @@
 
 
 <!-- Deployment -->
-## Deployment
+## Demonstration
 
-See a live demo of the project here:
+* See a live demo of the project here:
+
+**Flow Chart:**
+<img src="/graphic.png" alt="Graphic" width="75%"/>
+
+**Functionality Explained:**
+* The gesture sensor on the Arduino Carrier kit is used to count chickens walking in and out of the chicken run.
+* Each time movement is detected from the left, the 'count' variable is incremented.
+* Each time movement is detected from the right, the 'count' variable is decremented.
+* Once the count reaches 5, an event is triggered and a notification is sent to the owners smart phone where they then have the option to close the gate by pressing the button.
+* When the button is pressed, a relay on the Arduino Carrier is switched on for 5 seconds, simulating a motor closing the gate.
+* An LDR sensor connected to A0 on the Arduino, is used to moitor the light level.
+* When the light level drops, an event is triggered and a notification is sent to the owner, where they can choose to close the gate.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
