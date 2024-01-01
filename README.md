@@ -28,11 +28,11 @@
 * Arduino IDE - For coding, compiling and uploading the programme to the Arduino MKR WiFi 1010.
 * Blynk IoT Platform - Integrated with the Arduino code to enable real-time monitoring and control via the Blynk mobile app.
 
-<img src="/images/arduino-logo.png" alt="arduino" width="400"/> <img src="/images/blynk-logo.png" alt="blynk" width="400"/>
+<img src="/images/arduino-logo.png" alt="arduino" width="150"/>    <img src="/images/blynk-logo.png" alt="blynk" width="150"/>
 
 
 **Primary Objectives**
-* To solve a real world problem of forgetting to close the gate of the chicken run at night which often resulted in the dissapearing of the hens.
+* To solve a real world problem of forgetting to close the gate of the chicken run at night which often resulted in the dissapearing of hens.
 * This will be achieved by monitoring and controlling the chicken coop environment using sensors and IoT principles.
 * Gesture detection, light level monitoring, and manual control via a mobile app will be utilized.
 
