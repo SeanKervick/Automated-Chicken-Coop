@@ -1,8 +1,6 @@
 <p align="center">
-
-**Automated Chicken Coop** <br>
-![Alt coopImage](/images/coop.png)
-
+  <strong>Automated Chicken Coop</strong><br>
+  <img src="/images/coop.png" alt="Coop Image" width="50%"/><img src="/graphic.png" alt="Graphic" width="50%"/>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -21,12 +19,12 @@
 
 **Assignment Overview**
 * This project is being developed as part of a college IoT assignment.
-* The requirement is to showcase practical applications using networking/IoT standards & protocols.
+* The requirement is to showcase a practical application using networking/IoT standards & protocols.
 
 **Hardware Used**
 * Arduino MKR WiFi 1010 microcontroler.
-* Arduino MKR Carrier
-* APDS9960 gesture sensor (Built in to Carrier)
+* Arduino MKR Carrier.
+* APDS9960 gesture sensor (Built in to Carrier).
 * An LDR for light level monitoring.
 
 **Software & Platforms**
