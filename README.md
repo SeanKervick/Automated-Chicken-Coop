@@ -1,5 +1,5 @@
-<p align="center" style="font-size: 36px; margin-bottom: 20px;">
-<h1>Automated Chicken Coop<h1>
+<p align="center">
+<h1 style="font-size: 36px; margin-bottom: 20px;">Automated Chicken Coop</h1>
 <img src="/images/coop.png" alt="Coop Image" width="75%"/>
 </p>
 
