@@ -1,7 +1,8 @@
 <p align="center">
   <h1 style="font-size: 36px; margin-bottom: 20px;">Automated Chicken Coop</h1>
-  <img src="/images/coop.png" alt="Coop Image" width="40%"/><img src="/graphic.png" alt="Graphic" width="40%"/>
 </p>
+  <img src="/images/coop.png" alt="Coop Image" width="200px"/><img src="/graphic.png" alt="Graphic" width="200px"/>
+
 
 <!-- TABLE OF CONTENTS -->
 <details>
