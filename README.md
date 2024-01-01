@@ -29,7 +29,7 @@
 * Blynk IoT Platform - Integrated with the Arduino code to enable real-time monitoring and control via the Blynk mobile app.
 
 <p align="center">
-<img src="/images/arduino-logo.png" alt="arduino" width="200"/>    <img src="/images/blynk-logo.png" alt="blynk" width="200"/>
+<img src="/images/arduino-logo.png" alt="arduino" width="200" style="margin: 10px;"/>    <img src="/images/blynk-logo.png" alt="blynk" width="200" style="margin: 10px;"/>
 </p>
 
 **Primary Objectives**
