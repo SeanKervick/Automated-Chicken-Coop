@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>Automated Chicken Coop</strong><br>
+  <h1 style="font-size: 36px; margin-bottom: 20px;">Automated Chicken Coop</h1>
   <img src="/images/coop.png" alt="Coop Image" width="50%"/><img src="/graphic.png" alt="Graphic" width="50%"/>
 </p>
 
@@ -61,17 +61,10 @@ See a live demo of the project here:
 
   https://www.arduino.cc/en/software
 
-* Blynk Platform & instructional video:
+* Blynk Platform & Blynk Instructional video:
 
-  https://blynk.io/
+  https://blynk.io/ <br>
   https://youtu.be/smOGihCr3OI
-
-
-template
-
-   ```
-   TBC
-   ```
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -81,9 +74,13 @@ template
 <!-- ACKNOWLEDGMENTS -->
 #### Acknowledgments
 
-To be completed...
-* []()
-* []()
-* []()
+Datasheets:
+* Arduino MKR WiFi 1010 - https://docs.arduino.cc/resources/datasheets/ABX00023-datasheet.pdf
+* Arduino Carrier - https://components101.com/sites/default/files/component_datasheet/LDR%20Datasheet.pdf
+* LDR - https://components101.com/sites/default/files/component_datasheet/LDR%20Datasheet.pdf
+
+Learning Resources:
+* https://docs.arduino.cc/tutorials/mkr-iot-carrier-rev2/cheat-sheet
+* https://docs.arduino.cc/built-in-examples/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
