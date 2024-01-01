@@ -22,7 +22,6 @@ void setup() {
   //Setup a function to be called every second
   timer.setInterval(2000L, sendData);
   carrier.begin();
-  carrier.display.fillScreen(0x07E0);
 
   //Wait for Serial Monitor to open
   while (!Serial);
@@ -63,15 +62,16 @@ void sendData() {
 BLYNK_WRITE(V0) {
   // Set incoming value from pin V0 to a variable
   int relayOn = param.asInt();
+  // Relay turns on for 5 seconds when the switch is pressed, simulating a motor closing the gate.
   if (relayOn) {
     carrier.Relay1.open();
-  } else {
+    delay(5000);
     carrier.Relay1.close();
-  }
+  } 
 }
 
 void gesture() {
-  //Check if a gesture reading is available
+  // Check if a gesture reading is available
   if (APDS.gestureAvailable()) {
     int gesture = APDS.readGesture();
     switch (gesture) {
@@ -80,16 +80,22 @@ void gesture() {
         Serial.println("Detected LEFT gesture");
         count++;
         Serial.println(count);
+        carrier.display.fillScreen(0x07E0);
+        delay(300);
+        carrier.display.fillScreen(0x0000);
         break;
 
       case GESTURE_RIGHT:
         Serial.println("Detected RIGHT gesture");
         count--;
         Serial.println(count);
+        carrier.display.fillScreen(0xF800);
+        delay(300);
+        carrier.display.fillScreen(0x0000);
         break;
 
       default:
-        //Ignore
+        // Ignore
         break;
     }
   }
