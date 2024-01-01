@@ -1,4 +1,9 @@
+<p align="center">
+
+**Automated Chicken Coop** <br>
 ![Alt coopImage](/images/coop.png)
+
+</p>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -29,7 +34,7 @@
 * Blynk IoT Platform - Integrated with the Arduino code to enable real-time monitoring and control via the Blynk mobile app.
 
 <p align="center">
-<img src="/images/arduino-logo.png" alt="arduino" width="200" style="margin: 10px;"/>    <img src="/images/blynk-logo.png" alt="blynk" width="200" style="margin: 10px;"/>
+<img src="/images/arduino-logo.png" alt="arduino" width="200" style="margin: 30px;"/>    <img src="/images/blynk-logo.png" alt="blynk" width="200" style="margin: 30px;"/>
 </p>
 
 **Primary Objectives**
@@ -50,12 +55,21 @@ See a live demo of the project here:
 
 ### Installation
 
-Download the project here: 
+* Download the project here: 
 
-   ...TBC
+   https://github.com/SeanKervick/Automated-Chicken-Coop.git
+
+* Arduino IDE:
+
+  https://www.arduino.cc/en/software
+
+* Blynk Platform & instructional video:
+
+  https://blynk.io/
+  https://youtu.be/smOGihCr3OI
 
 
-*Template*
+template
 
    ```
    TBC
