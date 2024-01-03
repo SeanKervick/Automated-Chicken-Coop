@@ -9,7 +9,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#deployment">Deployment</a></li>
+    <li><a href="#demonstration">Demonstration</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -49,7 +49,7 @@
 
 * See a live demo of the project here:
 
-  https://youtu.be/smOGihCr3OI
+  (PLACEHOLDER DEMO TO FOLLOW) https://youtu.be/smOGihCr3OI
 
 **Flow Chart:**<br>
 
