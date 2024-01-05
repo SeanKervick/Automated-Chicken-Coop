@@ -27,6 +27,7 @@
 * Arduino MKR Carrier.
 * APDS9960 gesture sensor (Built in to Carrier).
 * An LDR for light level monitoring.
+* Proximity Sensor (Built in to Carrier).
 
 **Software & Platforms**
 * Arduino IDE - For coding, compiling and uploading the programme to the Arduino MKR WiFi 1010.
@@ -47,9 +48,9 @@
 <!-- Deployment -->
 ## Demonstration
 
-* See a live demo of the project here:
+* See a full demo of the project here:
 
-  (PLACEHOLDER DEMO TO FOLLOW) https://youtu.be/smOGihCr3OI
+  https://www.youtube.com/watch?v=phLjLQu3BMQ
 
 **Flow Chart:**<br>
 
@@ -57,14 +58,16 @@
 <img src="/graphic.png" alt="Graphic" width="75%"/>
 <p>
 
-**Functionality Explained:**
+**Program Logic Explained:**
 * The gesture sensor on the Arduino Carrier kit is used to count chickens walking in and out of the chicken run.
 * Each time movement is detected from the left, the 'count' variable is incremented.
 * Each time movement is detected from the right, the 'count' variable is decremented.
 * Once the count reaches 5, an event is triggered and a notification is sent to the owner's smart phone where they then have the option to close the gate by pressing a button on the Blynk app.
 * When the button is pressed, a relay on the Arduino Carrier is switched on for 5 seconds, simulating a motor closing the gate.
+* The proximity sensor is used to monitor status of the gate. Events will only be triggered when the gate is open.
 * An LDR sensor connected to A0 on the Arduino, is used to monitor the light level.
-* When the light level drops, an event is triggered and a notification is sent to the owner, where they can choose to close the gate.
+* When the light level drops but not all chickens are in the coop, an event is triggered and a notification is sent to the owner.
+* When all chickens are in the coop and it gets dark, the gate automatically closes and and notification is sent to the device owner.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
